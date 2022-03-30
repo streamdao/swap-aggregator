@@ -203,7 +203,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
         })()
       }
 
-      {error && <div>Error in Jupiter, try changing your intpu</div>}
+      {error && <div>Error in Swap, try changing your input</div>}
 
       <div className="flex justify-center mt-4">
         <button

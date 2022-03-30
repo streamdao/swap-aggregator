@@ -18,12 +18,12 @@ const SolanaLogo = () => (
                 y2="55.415%"
                 id="a"
             >
-                <stop stopColor="#00FFA3" offset="0%" />
-                <stop stopColor="#DC1FFF" offset="100%" />
+                <stop stopColor="#007399" offset="0%" />
+                <stop stopColor="#0086b3" offset="100%" />
             </linearGradient>
             <linearGradient x1="66.588%" y1="43.8%" x2="11.36%" y2="64.439%" id="b">
-                <stop stopColor="#00FFA3" offset="0%" />
-                <stop stopColor="#DC1FFF" offset="100%" />
+                <stop stopColor="#007399" offset="0%" />
+                <stop stopColor="#0086b3" offset="100%" />
             </linearGradient>
             <linearGradient
                 x1="78.586%"
@@ -32,8 +32,8 @@ const SolanaLogo = () => (
                 y2="59.956%"
                 id="c"
             >
-                <stop stopColor="#00FFA3" offset="0%" />
-                <stop stopColor="#DC1FFF" offset="100%" />
+                <stop stopColor="#007399" offset="0%" />
+                <stop stopColor="#0086b3" offset="100%" />
             </linearGradient>
         </defs>
         <g fillRule="nonzero" fill="none">
@@ -65,14 +65,12 @@ const SiteDescription = () => {
                 <div className="text-center hero-content">
                     <div>
                         <h1 className="mb-5 text-5xl font-bold">
-                            Hello Solana <SolanaLogo /> World!
+                            StreamDAO <SolanaLogo /> Swap
                         </h1>
 
                         <div className="max-w-md">
                             <p className="mb-5">
-                                This scaffold includes awesome tools for rapid development and
-                                deploy dapps to Solana: Next.JS, TypeScript, TailwindCSS,
-                                Daisy UI.
+                                The Swap Aggregator on Solana
                             </p>
                             <p className="mb-5">Solana wallet adapter is connected and ready to use.</p>
                             <p className="mb-5">Environment: {ENV}</p>
